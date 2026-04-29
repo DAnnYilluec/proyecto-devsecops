@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Descargar Código') {
             steps {
-                git branch: 'desarrollo', url: 'https://github.com/TU_USUARIO/proyecto-devsecops.git'
+                git branch: 'desarrollo', url: 'https://github.com/DAnnYilluec/proyecto-devsecops.git'
             }
         }
         stage('Construir Imagen Docker (Build)') {
